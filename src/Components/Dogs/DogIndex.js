@@ -32,9 +32,9 @@ export default class DogIndex extends Component {
 
         return(
             <div>
-            <button onClick={this.fetchImg}> Random Dog Pictures</button>
-            <hr />
             <img src={this.state.Img_url} />
+            <hr />
+            <button onClick={this.fetchImg}> Random Dog Pictures</button>
             </div>
         );
     }

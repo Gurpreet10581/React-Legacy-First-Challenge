@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import CatIndex from './CatIndex';
+import React from 'react';
  
 const CatList = (props) => {
  return (
